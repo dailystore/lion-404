@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>LION ADS</title>
+    <meta name="description" content="">
+
+    <link href="css/style.min.css?v=1" rel="stylesheet">
+</head>
+<body class="bg-yellow">
+    <div id="first-view" class="section-img-404 table-cell">
+        <h1 class="logo">
+            <a href="./" class="hover-img">
+                <img src="img/common/logo.png" alt="LION ADS" width="60"/>
+            </a>
+        </h1>
+        <div class="cell v-middle">
+            <img src="img/common/img-computer.png" alt="" class="img-responsive center-block img"/>
+
+            <h2 class="title-section title-magenta text-center">
+                Sorry, we're doing some work on the size
+            </h2>
+        </div>
+    </div>
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="components/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+<script src="components/bower_components/respond/dest/respond.min.js"></script>
+<![endif]-->
+
+<script src="components/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="components/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="components/bower_components/matchHeight/dist/jquery.matchHeight-min.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    $(document).ready(function () {
+        setHeight();
+
+        $(window).resize(function () {
+            setHeight();
+        });
+    });
+
+    function setHeight() {
+        $("#first-view").css("height", $(window).height() + "px");
+    }
+</script>
+</body>
+</html>
