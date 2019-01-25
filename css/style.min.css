@@ -2747,7 +2747,7 @@ tbody.collapse.in {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px
+  padding: 10px 15px;
 }
 .nav > li > a:focus,
 .nav > li > a:hover {
@@ -6439,7 +6439,9 @@ a.thumbnail {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .section-img-404 .inner {
   display: -webkit-box;
@@ -6458,6 +6460,7 @@ a.thumbnail {
   text-align: center
 }
 .section-img-404 .title-section {
+  margin-top: 0;
   margin-bottom: 0
 }
 .section-img-404 .img {

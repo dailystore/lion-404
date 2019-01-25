@@ -10,27 +10,15 @@
 
     <link href="css/style.min.css?v=1" rel="stylesheet">
     <style>
-        .img-responsive {
-            margin-top: -80px;
-        }
-        .section-img-404 .img {
-            width: 750px;
-        }
+
         .text-container {
             max-width: 600px;
-            height: 100px;
+            padding: 15px 20px;
             border: 2px solid white;
             border-radius: 5px;
             margin-top: 35px;
-            padding: 0px 10px 0px 10px;
         }
-        .navbar-nav > li > a {
-            padding-right: 0;
-        }
-        .navbar-default .navbar-nav > li > a:not(.btn):hover span{
-            opacity: 1;
-            color: #361e58;
-        }
+
         .section-img-404 .img {
             animation-name: img-404-floating, fadein;
             animation-duration: 5s;
@@ -40,7 +28,7 @@
         @keyframes img-404-floating {
             from { transform: translate(0,  0px); }
             65%  { transform: translate(0, 15px); }
-            to   { transform: translate(0, -0px); }    
+            to   { transform: translate(0, -0px); }
         }
         @keyframes fadein{
             0% { opacity:0; }
@@ -48,23 +36,17 @@
             100% { opacity:0; }
         }
         @media (max-width: 991px) {
-            .section-img-404 .img {
-                margin-top: 0;
-                max-width: 95%
-            }
             .text-container {
-                max-width: 95%;
-                height: 45px;
                 margin-top: 30px;
-
-
             }
-            .text-container h2 {
-                margin-top: 10px;
-                font-size: 18px;
-            }
-            
         }
+
+      @media (max-width: 1199px) and (min-width: 992px) {
+        .nav > li > a {
+          padding: 10px 6px;
+        }
+      }
+
     </style>
 </head>
 <body class="bg-yellow">
@@ -136,7 +118,7 @@
             <div class="text-container center-block">
                 <h2 class="title-section title-magenta text-center">
                     Sorry, we're doing some work on the site
-                </h2>    
+                </h2>
             </div>
         </div>
     </div>
