@@ -4616,7 +4616,6 @@ a .img-responsive {
 }
 @media (max-width:991px) {
   body {
-    padding-bottom: 112px;
     font-size: 1rem
   }
   .both-side-slash .title {
@@ -5569,7 +5568,7 @@ fieldset[disabled] .btn-magenta:hover {
   background-color: #361e58
 }
 .nav-fixed-bottom .list-inline {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   text-align: center
 }
 .nav-fixed-bottom .list-inline .btn {
@@ -6490,32 +6489,10 @@ a.thumbnail {
 .entry-date {
   margin-right: 10px
 }
-.section-img-404 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-  padding-right: 15px;
-  padding-left: 15px
+.section-404 {
+  padding-top: 100px
 }
-.section-img-404 .inner {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  text-align: center
-}
-.section-img-404 .title-section {
+.section-404 .title-section {
   display: block;
   max-width: 600px;
   padding: 15px 20px;
@@ -6523,10 +6500,10 @@ a.thumbnail {
   border-radius: 5px;
   margin: 35px auto 0
 }
-.section-img-404 .logo-white-xs {
+.section-404 .logo-white-xs {
   margin-bottom: 30px
 }
-.section-img-404 .img {
+.section-404 .img {
   width: 500px;
   -webkit-animation-name: img-404-floating,fadein;
   animation-name: img-404-floating,fadein;
@@ -6613,18 +6590,26 @@ a.thumbnail {
   background: url(../img/frame/middle.png) 50% 100%/100% no-repeat;
   content: ""
 }
-.frame-paper .inner {
-  position: relative;
-  z-index: 1;
-  padding: 5.2rem 9.5rem 7rem
-}
 @media (max-width:991px) {
+  .section-404 {
+    padding-top: 50px
+  }
+  .section-404 .title-section {
+    padding: 10px 5px
+  }
   .title-magenta {
     font-size: 26px
   }
   .frame-paper:before {
     top: 4%
   }
+}
+.frame-paper .inner {
+  position: relative;
+  z-index: 1;
+  padding: 5.2rem 9.5rem 7rem
+}
+@media (max-width:991px) {
   .frame-paper .inner {
     padding: 7vw 6vw
   }
