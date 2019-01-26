@@ -5596,6 +5596,14 @@ fieldset[disabled] .btn-magenta:hover {
     width: 39%
   }
 }
+@media (max-width:479px) and (max-width:479px) {
+  .nav-fixed-bottom .cell.website:before {
+    left: -1px!important
+  }
+  .nav-fixed-bottom .cell.print:before {
+    left: 3px!important
+  }
+}
 .nav-fixed-bottom .cell + .cell {
   position: relative
 }
@@ -5603,7 +5611,7 @@ fieldset[disabled] .btn-magenta:hover {
   position: absolute;
   display: block;
   top: 8px;
-  left: -2px;
+  left: 0;
   font-size: 14px;
   font-weight: 700;
   content: ":"
