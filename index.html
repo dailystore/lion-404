@@ -7,51 +7,42 @@
 
     <title>LION ADS</title>
     <meta name="description" content="">
-  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
     <link href="css/style.min.css?v=1" rel="stylesheet">
-    <style>
-
-        .text-container {
-            max-width: 600px;
-            padding: 15px 20px;
-            border: 2px solid white;
-            border-radius: 5px;
-            margin-top: 35px;
-        }
-
-        .section-img-404 .img {
-            animation-name: img-404-floating, fadein;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in-out;
-        }
-        @keyframes img-404-floating {
-            from { transform: translate(0,  0px); }
-            65%  { transform: translate(0, 15px); }
-            to   { transform: translate(0, -0px); }
-        }
-        @keyframes fadein{
-            0% { opacity:0; }
-            70% { opacity:1; }
-            100% { opacity:0; }
-        }
-        @media (max-width: 991px) {
-            .text-container {
-                margin-top: 30px;
-            }
-        }
-
-      @media (max-width: 1199px) and (min-width: 992px) {
-        .nav > li > a {
-          padding: 10px 6px;
-        }
-      }
-
-    </style>
 </head>
 <body class="bg-yellow">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="nav-fixed-bottom visible-xs">
+        <ul class="list-inline">
+            <li>
+                <a href="#" class="btn btn-magenta btn-rounded">
+                    <img src="img/icon/icon-fb.png" alt=""/>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn btn-magenta btn-rounded">
+                    <img src="img/icon/icon-in.png" alt=""/>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="btn btn-magenta btn-rounded">
+                    <img src="img/icon/icon-zalo.png" alt=""/>
+                </a>
+            </li>
+        </ul>
+
+        <div class="table-cell">
+            <a href="#" class="cell">
+                DESIGN CREATIVE
+            </a>
+            <a href="#" class="cell print">
+                PRINT PRODUCTS
+            </a>
+            <a href="#" class="cell website">
+                WEBSITE
+            </a>
+        </div>
+    </div>
+    <nav class="navbar navbar-default navbar-fixed-top hidden-xs">
         <div class="container">
             <div class="navbar-header">
                 <a href="#" class="navbar-toggle collapsed menu-trigger" data-toggle="collapse" data-target="#navbar-2" aria-expanded="false" aria-controls="navbar">
@@ -69,27 +60,27 @@
                 <ul class="nav navbar-nav">
                     <li>
                         <a href="#">
-                            ABOUT &nbsp; <span>:</span>
+                            ABOUT
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            WORK &nbsp; <span>:</span>
+                            WORK
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            DESIGN CREATIVE &nbsp; <span>:</span>
+                            DESIGN CREATIVE
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            PRINT PRODUCTS &nbsp; <span>:</span>
+                            PRINT PRODUCTS
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            CLIENTS <span>_</span>
+                            CLIENT
                         </a>
                     </li>
                 </ul>
@@ -115,8 +106,10 @@
     </nav>
     <div id="first-view" class="section-img-404">
         <div class="inner">
+            <img src="img/common/logo-white.png" alt="LION ADS" class="center-block visible-xs logo-white-xs" width="150"/>
             <img src="img/common/img-computer.png" alt="" class="img-responsive center-block img"/>
-            <div class="text-container center-block">
+
+            <div class="text-center">
                 <h2 class="title-section title-magenta text-center">
                     Sorry, we're doing some work on the site
                 </h2>
