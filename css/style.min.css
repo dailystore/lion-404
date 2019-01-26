@@ -5562,7 +5562,10 @@ fieldset[disabled] .btn-magenta:hover {
   position: fixed;
   right: 0;
   bottom: 0;
-  left: 0
+  left: 0;
+  z-index: 1030;
+  padding-top: 20px;
+  background-color: #ffcb08
 }
 .nav-fixed-bottom .table-cell {
   background-color: #361e58
@@ -6592,7 +6595,8 @@ a.thumbnail {
 }
 @media (max-width:991px) {
   .section-404 {
-    padding-top: 50px
+    padding-top: 20px;
+    padding-bottom: 130px
   }
   .section-404 .title-section {
     padding: 10px 5px
