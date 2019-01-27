@@ -5580,7 +5580,8 @@ fieldset[disabled] .btn-magenta:hover {
   height: 44px
 }
 .nav-fixed-bottom .cell {
-  width: 33.3333333333%;
+  /*width: 33.3333333333%;*/
+  width: 50%;
   padding: 10px 5px;
   vertical-align: middle;
   font-weight: 700;
@@ -5593,7 +5594,8 @@ fieldset[disabled] .btn-magenta:hover {
     width: 23%
   }
   .nav-fixed-bottom .cell.print {
-    width: 39%
+    /*width: 39%*/
+    width: 50%;
   }
 }
 @media (max-width:479px) and (max-width:479px) {
@@ -5601,7 +5603,8 @@ fieldset[disabled] .btn-magenta:hover {
     left: -1px!important
   }
   .nav-fixed-bottom .cell.print:before {
-    left: 3px!important
+    /*left: 3px!important;*/
+    left: 0px!important;
   }
 }
 .nav-fixed-bottom .cell + .cell {
@@ -6512,7 +6515,7 @@ a.thumbnail {
   margin: 35px auto 0
 }
 .section-404 .logo-white-xs {
-  margin-bottom: 30px
+  margin-bottom: 65px
 }
 .section-404 .img {
   width: 500px;
